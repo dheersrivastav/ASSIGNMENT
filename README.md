@@ -1,7 +1,7 @@
-Firebase Authentication Project
+Firebase Authentication Project:
 This project demonstrates user registration, login, email verification, and sending an authentication token to a mock backend endpoint using Firebase and React.
 
-Table of Contents
+Table of Contents:
 Getting Started
 Project Structure
 Dependencies
