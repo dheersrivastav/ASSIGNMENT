@@ -16,6 +16,16 @@
 
 
 
+✅IMAGES
+
+![Screenshot 2024-07-10 193659](https://github.com/dheersrivastav/ASSIGNMENT/assets/123939027/3c830e91-9f15-4c89-9f68-0e565db1bf7b)
+
+![Screenshot 2024-07-10 193850](https://github.com/dheersrivastav/ASSIGNMENT/assets/123939027/438c9b59-3a88-449b-ab00-0b92ab33747a)
+
+![Screenshot 2024-07-10 193910](https://github.com/dheersrivastav/ASSIGNMENT/assets/123939027/09975bb8-4445-4a5f-b75c-e99207ba0193)
+
+![Screenshot 2024-07-10 194635](https://github.com/dheersrivastav/ASSIGNMENT/assets/123939027/13486b95-adf9-4dfc-8fdd-3b12f0d55824)
+
 
  ✅Firebase Authentication Project:
  
@@ -175,8 +185,6 @@ Upon successful registration, the app fetches the user's authentication token an
 
 The app handles various errors such as email already in use, registration errors, and backend issues, displaying appropriate messages to the user.
 
-IMAGES
 
-![Screenshot 2024-07-10 193659](https://github.com/dheersrivastav/ASSIGNMENT/assets/123939027/3c830e91-9f15-4c89-9f68-0e565db1bf7b)
 
 
