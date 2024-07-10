@@ -92,8 +92,8 @@ const Login = () => {
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
       const token = await userCredential.user.getIdToken();
 
-      // Send the token to the backend
-      await sendTokenToBackend(token);
+      // Send the token and user data to the backend
+      await sendTokenToBackend(token, userCredential.user);
 
       setModalMessage('Login successful!');
       setShowModal(true);
@@ -111,9 +111,18 @@ const Login = () => {
     }
   };
 
-  const sendTokenToBackend = async (token) => {
+  const sendTokenToBackend = async (token, user) => {
+    console.log('Token:', token);  // Log the token
+    console.log('User:', user);    // Log the user data
+
     try {
-      const response = await axios.post('http://localhost:5000/api/verifyToken', { token });
+      const response = await axios.post('http://localhost:5000/api/verifyToken', { 
+        token, 
+        user: {
+          email: user.email,
+          uid: user.uid
+        }
+      });
 
       if (response.data.message === 'Token is valid and email is verified') {
         console.log('Token verified on backend');
