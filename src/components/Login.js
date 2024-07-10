@@ -6,7 +6,7 @@ import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../firebase';
 import styled from 'styled-components';
 import Modal from 'react-modal';
-import { sendTokenToBackend } from '../api/api';
+import axios from 'axios';
 
 const Container = styled.div`
   display: flex;
@@ -104,10 +104,24 @@ const Login = () => {
       } else if (error.code === 'auth/user-not-found') {
         setModalMessage('No account found with this email.');
       } else {
-        setModalMessage('Wrong password. Please try again. or No account found with this email.');
+        setModalMessage('Login failed. Please try again.');
       }
       setShowModal(true);
       setNavigateOnClose(false); // Do not navigate on close
+    }
+  };
+
+  const sendTokenToBackend = async (token) => {
+    try {
+      const response = await axios.post('http://localhost:5000/api/verifyToken', { token });
+
+      if (response.data.message === 'Token is valid and email is verified') {
+        console.log('Token verified on backend');
+      } else {
+        console.log('Token verification failed:', response.data.message);
+      }
+    } catch (error) {
+      console.error('Error sending token to backend:', error);
     }
   };
 
