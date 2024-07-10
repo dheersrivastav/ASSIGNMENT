@@ -1,70 +1,190 @@
-# Getting Started with Create React App
+                                                                            OVERVIEW
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+{{      
+                😊DEPENDENCY🤓  
 
-## Available Scripts
+🔴🔴npm install react react-dom react-router-dom firebase react-modal json-server styled-components🔴🔴
 
-In the project directory, you can run:
+🔴🔴 git clone https://github.com/your-repo/firebase-auth-project.git
 
-### `npm start`
+     cd my-app
+     
+     npm install
+     npm start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+}}
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✅IMAGES
 
-### `npm run build`
+![Screenshot 2024-07-10 193659](https://github.com/dheersrivastav/ASSIGNMENT/assets/123939027/3c830e91-9f15-4c89-9f68-0e565db1bf7b)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Screenshot 2024-07-10 193850](https://github.com/dheersrivastav/ASSIGNMENT/assets/123939027/438c9b59-3a88-449b-ab00-0b92ab33747a)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot 2024-07-10 193910](https://github.com/dheersrivastav/ASSIGNMENT/assets/123939027/09975bb8-4445-4a5f-b75c-e99207ba0193)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot 2024-07-10 194635](https://github.com/dheersrivastav/ASSIGNMENT/assets/123939027/13486b95-adf9-4dfc-8fdd-3b12f0d55824)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ ✅Firebase Authentication Project:
+ 
+ 1. This project demonstrates user registration, login, email verification, and sending an authentication token to a mock backend endpoint using Firebase and React.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ ✅Table of Contents:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1.Getting Started
 
-## Learn More
+2.Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3.Dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4.Firebase Setup
 
-### Code Splitting
+5.Running the Project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+6.Setting Up JSON Server
 
-### Analyzing the Bundle Size
+7.Functionality
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+8.User Registration
 
-### Making a Progressive Web App
+9.Email Verification
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+10.Sending Authentication Token
 
-### Advanced Configuration
+11.Error Handling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# or
 
-### Deployment
+✅Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Project Structure
 
-### `npm run build` fails to minify
+# or ✅
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+my-app/
+├── public/
+
+│   ├── index.html
+
+│   └── ...
+
+├── src/
+
+│   ├── API/
+
+│   │   └── api.js
+
+│   ├── components/
+
+│   │   ├── Register.js
+
+│   │   ├── Login.js
+
+│   │   └── ProtectedComponent.js
+
+│   ├── context/
+
+│   │   └── AuthContext.js
+
+│   ├── pages/
+
+│   │   ├── Home.js
+
+│   │   └── ProtectedPage.js
+
+│   ├── firebase.js
+
+│   ├── App.js
+
+│   ├── index.js
+
+│   └── App.css
+
+├── db.json
+
+├── .gitignore
+
+├── package.json
+├── README.md
+└── ...
+
+# or
+✅Dependencies:
+
+The project relies on the following npm packages:
+
+🔴react
+🔴react-dom
+🔴react-router-dom
+🔴firebase
+🔴react-modal
+🔴json-server
+🔴Install them using npm or yarn:
+# or
+
+
+✅FIREBASE SETUP
+
+🔴Create a Firebase project in the Firebase Console.
+
+🔴Register your app with Firebase.
+
+🔴Add Firebase SDK to your project:
+
+🔴Go to your Firebase project settings and copy the Firebase config object.
+
+🔴Create a firebase.js file in the src directory and add the Firebase configuration.
+
+🔴Running the Project
+
+🔴Start the development server:
+
+
+npm start
+
+# or
+Open your browser and navigate to http://localhost:3000.
+
+# or
+
+✅Setting Up JSON Server
+
+Create db.json file in the root directory of your project:
+
+# or
+
+✅json
+{
+  "users": []
+}
+Start JSON Server:
+
+
+json-server --watch db.json --port 3001
+JSON Server will run at http://localhost:3001 and will be used to simulate sending the authentication token to a backend endpoint.
+
+# or
+✅FUNCTIONALITY:-
+
+User Registration
+
+Users can register with their first name, last name, email, and password. During registration, the app checks if the email is already in use and displays appropriate messages.
+
+✅EMAIL VERIFICATION:
+
+After registration, a verification email is sent to the user's email address. Users must verify their email before logging in.
+
+✅Sending Authentication Token
+
+Upon successful registration, the app fetches the user's authentication token and sends it to the mock backend endpoint (http://localhost:3001/users) for demonstration purposes.
+
+✅Error Handling
+
+The app handles various errors such as email already in use, registration errors, and backend issues, displaying appropriate messages to the user.
+
+
+
+
