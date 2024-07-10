@@ -174,3 +174,9 @@ Upon successful registration, the app fetches the user's authentication token an
 ✅Error Handling
 
 The app handles various errors such as email already in use, registration errors, and backend issues, displaying appropriate messages to the user.
+
+IMAGES
+
+![Screenshot 2024-07-10 193659](https://github.com/dheersrivastav/ASSIGNMENT/assets/123939027/3c830e91-9f15-4c89-9f68-0e565db1bf7b)
+
+
