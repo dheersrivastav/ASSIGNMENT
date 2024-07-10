@@ -1,6 +1,7 @@
-{{
+{{      
+                😊DEPENDENCY🤓  
 
-🔴🔴npm install react react-dom react-router-dom firebase react-modal json-server🔴🔴
+🔴🔴npm install react react-dom react-router-dom firebase react-modal json-server styled-components🔴🔴
 
 🔴🔴 git clone https://github.com/your-repo/firebase-auth-project.git
 
@@ -14,6 +15,7 @@
 
 
  ✅Firebase Authentication Project:
+ 
  1. This project demonstrates user registration, login, email verification, and sending an authentication token to a mock backend endpoint using Firebase and React.
 
  ✅Table of Contents:
@@ -41,47 +43,57 @@
 
 11.Error Handling
 
+# or
 
 ✅Getting Started
 
-# or
-
-git clone https://github.com/your-repo/firebase-auth-project.git
-
-cd my-app
-
-Install dependencies:
-
-npm install
-
-
-# or
-yarn install
 Project Structure
 
 # or ✅
+
 my-app/
 ├── public/
+
 │   ├── index.html
+
 │   └── ...
+
 ├── src/
+
 │   ├── API/
+
 │   │   └── api.js
+
 │   ├── components/
+
 │   │   ├── Register.js
+
 │   │   ├── Login.js
+
 │   │   └── ProtectedComponent.js
+
 │   ├── context/
+
 │   │   └── AuthContext.js
+
 │   ├── pages/
+
 │   │   ├── Home.js
+
 │   │   └── ProtectedPage.js
+
 │   ├── firebase.js
+
 │   ├── App.js
+
 │   ├── index.js
+
 │   └── App.css
+
 ├── db.json
+
 ├── .gitignore
+
 ├── package.json
 ├── README.md
 └── ...
@@ -100,30 +112,26 @@ The project relies on the following npm packages:
 🔴Install them using npm or yarn:
 # or
 
-✅npm install react react-dom react-router-dom firebase react-modal json-server
-
-# or
-
-✅yarn add react react-dom react-router-dom firebase react-modal json-server
 
 ✅FIREBASE SETUP
 
-Create a Firebase project in the Firebase Console.
+🔴Create a Firebase project in the Firebase Console.
 
-Register your app with Firebase.
+🔴Register your app with Firebase.
 
-Add Firebase SDK to your project:
+🔴Add Firebase SDK to your project:
 
-Go to your Firebase project settings and copy the Firebase config object.
+🔴Go to your Firebase project settings and copy the Firebase config object.
 
-Create a firebase.js file in the src directory and add the Firebase configuration.
+🔴Create a firebase.js file in the src directory and add the Firebase configuration.
 
-Running the Project
+🔴Running the Project
 
-Start the development server:
+🔴Start the development server:
 
 
 npm start
+
 # or
 Open your browser and navigate to http://localhost:3000.
 
